@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:48f4d2f99fca748a6995b0f6f0311a5cfad24e82d44ce149771c1478e1e9633521310b3f8c6fb334774b5a36574ee40d79882ffa89f881334b8f1f18586b4194#npm:18.3.1"],\
           ["react-scripts", "virtual:48f4d2f99fca748a6995b0f6f0311a5cfad24e82d44ce149771c1478e1e9633521310b3f8c6fb334774b5a36574ee40d79882ffa89f881334b8f1f18586b4194#npm:5.0.1"],\
+          ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -17076,6 +17077,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:48f4d2f99fca748a6995b0f6f0311a5cfad24e82d44ce149771c1478e1e9633521310b3f8c6fb334774b5a36574ee40d79882ffa89f881334b8f1f18586b4194#npm:18.3.1"],\
           ["react-scripts", "virtual:48f4d2f99fca748a6995b0f6f0311a5cfad24e82d44ce149771c1478e1e9633521310b3f8c6fb334774b5a36574ee40d79882ffa89f881334b8f1f18586b4194#npm:5.0.1"],\
+          ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -17546,6 +17548,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["uuid", [\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/uuid-npm-10.0.0-4872b46ff8-10c0.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:10.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:8.3.2", {\
         "packageLocation": "../../../.yarn/berry/cache/uuid-npm-8.3.2-eca0baba53-10c0.zip/node_modules/uuid/",\
         "packageDependencies": [\
