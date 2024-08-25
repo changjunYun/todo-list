@@ -21,6 +21,7 @@ export default function TodoList(){
             </ul>
             {/* add가 되면 나의 콜백함수를 호출해라 */}
             <AddTodo onAdd={handleAdd}/>
+            <div>삭제하기</div>
         </section>
     );
 }
