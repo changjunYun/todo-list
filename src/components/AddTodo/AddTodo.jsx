@@ -12,6 +12,7 @@ export default function AddTodo( {onAdd} ){
         onAdd({ id: uuidv4(), text, status: 'active' });
         setText("");
     };
+    
     return (
         <form onSubmit={handleSummit}>
             <input 
