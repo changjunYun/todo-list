@@ -12,7 +12,7 @@ export default function TodoList({filter}){
     const handleAdd = (todo) => {
         // 새로운 todo를 todos에 업데이트 해줘야 한다.
         console.log(todo);
-        setTodos([...todos, todo])
+        setTodos([...todos, todo]);
     }
     const handleUpdate = (updated) => setTodos(todos.map((t) => t.id === updated.id ? updated : t))
     const handleDelete = (deleted) => setTodos(todos.filter((t) => t.id !== deleted.id));
@@ -20,6 +20,7 @@ export default function TodoList({filter}){
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos));
     } , [todos]);
+
     const filtered = getFilteredItems(todos, filter);
 
     return (
